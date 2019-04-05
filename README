@@ -1,0 +1,12 @@
+There's one source code file escrypt.c. A Makefile is also present.
+
+Usage:
+	make
+	./escrypt unenc enc
+
+where
+- unenc is a file with the unecrypted data
+- enc will be created and the encrypted data will be written there.
+- fcheck was a quick test that gets the encrypted data and decrypts it in that file. It was a quick hard-coded implementation of a check that the encrypted data also decrypts.
+
+The program was compiled on a x64 Linux machine.
